@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sonakshi🎉</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            margin-top: 60px;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px;
+        }
+
+        .birthday-img {
+            width: 250px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 1em;
+            border: none;
+            border-radius: 25px;
+            background-color: #ff4b5c;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff1e3c;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #surprise {
+            margin-top: 30px;
+        }
+
+        iframe {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎉 Happy Birthday Sonakshi! 🎉</h1>
+
+    <!-- Your Image -->
+    <img src="https://github.com/primealok/BirthdayGift/blob/main/photo.png" alt="Birthday Person" class="birthday-img">
+
+    <p>
+        Happy Birthday Dear Sona🥰.
+        I know ki jyada acha nhi tha lekin i tried my best 
+        acha birthday surprise dene ke liye.
+         I hope you like it.
+          I wish ki tum jaldi thik hojao and hamesa khush raho.
+    </p>
+
+    <!-- Music (YouTube Embed) -->
+    <h3>🎵 Birthday Edit</h3>
+    <iframe width="300" height="170"
+        src="https://github.com/primealok/BirthdayGift/blob/main/Happy%20Birthday%20Dear%20Sona%20%F0%9F%A5%B0%F0%9F%A9%B7.mp4"
+        title="Birthday Edit"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+
+    <br><br>
+
+    <button onclick="showSurprise()">Click for Surprise 🎁</button>
+
+    <div id="surprise" class="hidden">
+        <h2>🎂 You are amazing! 🎂</h2>
+        <p>You are the best person in my life🥰</p>
+    </div>
+</div>
+
+<script>
+    function showSurprise() {
+        document.getElementById("surprise").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
